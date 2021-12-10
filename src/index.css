@@ -9,7 +9,10 @@ body {
 
 .cart-item {
   display: flex;
+  
   margin: 20px 10px;
+  width: 30%;
+  
 }
 .cart-item .right-block{
   padding: 0px 20px;
@@ -25,5 +28,13 @@ body {
 }
 .action-icons:hover {
   cursor: pointer;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-left: 8%;
 }
 
