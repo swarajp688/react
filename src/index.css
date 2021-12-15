@@ -5,13 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 .cart-item {
   display: flex;
-  
   margin: 20px 10px;
-  width: 30%;
+  width:30%;
   
 }
 .cart-item .right-block{
@@ -19,6 +19,16 @@ body {
 }
 .cart-item-actions {
   margin-top: 20px;
+}
+.l-image {
+      height:150px;
+      width:150px;
+      border-radius:4px;
+      background:"#ccc";
+      transition: 0.5s ease-in-out;
+}
+.l-image:hover {
+  transform: scale(1.1);
 }
 .action-icons {
   height: 25px;
@@ -34,6 +44,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 100%;
   margin-left: 8%;
   
