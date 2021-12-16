@@ -34,42 +34,42 @@ class App extends React.Component {
               price : 499,
               qty : 0,
               img :'https://images.unsplash.com/photo-1590082871875-064201a27373?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80',
-              id:1
+              id:4
           },
           {
               title : 'Bag',
               price : 999,
               qty : 0,
               img : 'https://images.unsplash.com/photo-1581605405669-fcdf81165afa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-              id:2
+              id:5
           },
           {
               title : 'Router',
               price : 2999,
               qty : 0,
               img : 'https://images.unsplash.com/photo-1626177275306-4245f57e32b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=719&q=80',
-              id:3
+              id:6
           },
           {
             title : 'Water Bottle',
             price : 999,
             qty : 0,
             img :'https://images.unsplash.com/photo-1559549569-76ad43c35738?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80',
-            id:1
+            id:7
         },
         {
             title : 'Mouse',
             price : 1599,
             qty : 0,
             img : 'https://images.unsplash.com/photo-1563297007-0686b7003af7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1217&q=80',
-            id:2
+            id:8
         },
         {
             title : 'Headphones',
             price : 25999,
             qty : 0,
             img : 'https://images.unsplash.com/photo-1546435770-a3e426bf472b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1165&q=80',
-            id:3
+            id:9
         }
         ]
     }
