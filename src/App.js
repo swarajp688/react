@@ -2,6 +2,7 @@ import React from "react";
 import Cart from './Cart';
 import Navbar from "./Navbar";
 
+
 class App extends React.Component {
   constructor(){
     super();
@@ -126,6 +127,7 @@ totalPrice = ()=> {
     const {products} = this.state;
   return (
     <div className="App">
+      
       <Navbar count={this.getCartCount()}/>
       <Cart 
          products={products}
@@ -137,6 +139,7 @@ totalPrice = ()=> {
           TOTAL:{this.totalPrice()}
       </div>
     </div>
+    
   );
   }
 }
